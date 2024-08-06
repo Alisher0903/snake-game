@@ -1,0 +1,43 @@
+.App {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+canvas {
+  background-color: #f0f0f0;
+}
+
+/* game over and game start ni urab turuvchi div */
+.game-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+/* game start button */
+.game-start {
+  border: none;
+  border-radius: 10px;
+  padding: 5px 15px;
+  background-color: #4caf50;
+  cursor: pointer;
+  text-align: center;
+  color: #fff;
+}
+
+/* top */
+.game-over {
+  font-size: 24px;
+  color: red;
+  margin-top: 20px;
+}
+
+.game-point {
+  position: absolute;
+  top: 10px;
+}
